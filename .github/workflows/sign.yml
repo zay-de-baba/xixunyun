@@ -9,7 +9,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: 28 1 8 * * ? *
+    - cron: 01 8 1/1 * *
       
 jobs:
   build:
